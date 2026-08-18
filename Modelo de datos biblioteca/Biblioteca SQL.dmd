@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Biblioteca SQL" id="3C076F77-34FE-1A47-82DC-465746394A71" version="3.5">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-18 21:35:03 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3C076F77-34FE-1A47-82DC-465746394A71</designId>
+</OSDM_Design>
