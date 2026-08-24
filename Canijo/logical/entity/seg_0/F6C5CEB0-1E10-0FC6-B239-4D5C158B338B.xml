@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6C5CEB0-1E10-0FC6-B239-4D5C158B338B" name="Horario_de_funcionamiento">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:59:54 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5353BD46-BE38-3761-B57D-373EEB7103FD">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:00:05 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dia" id="6A810C39-15A0-33EB-8387-749A2726DDF0">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:00:08 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_de_apertura" id="025965DB-6DA5-0C66-F5A5-C194E5073D59">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:00:11 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_de_cerrar" id="CA093E1D-C22C-0B0E-AB09-A7E2FDBB2AF1">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:00:18 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_1" id="43F6BDBB-926A-6E07-74C8-3A285C6CEBA6">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:01:51 UTC</createdTime>
+<generatorID>2FFA4688-D9CF-38BA-A79A-C04D4B1DC65A</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<referedAttribute>807CB4FF-8B5D-9281-5B49-A7167754B50F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2056B82F-68C4-161C-5423-9C8DCB8C2FC4" name="Horario_de_funcionamiento PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 18:00:32 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5353BD46-BE38-3761-B57D-373EEB7103FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

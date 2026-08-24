@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EA652A7-6D1A-F3CC-88B9-9D5C5364B5A3" name="Producto">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 16:40:57 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_1" id="F214D3B0-09B3-6689-904B-79B0B965AF72">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 16:41:58 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_del_producto" id="26D08F11-8166-62C2-4B15-9429587E21B7">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 16:42:06 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="C954C77C-21E8-3DF1-7D41-AD0A97F73454">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 16:54:22 UTC</createdTime>
+<generatorID>48CDCC82-E978-4908-CF1C-78B76175496A</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<referedAttribute>1481593B-89E9-4F79-F4D4-655505F8AF7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3530A0F0-87EB-B83B-A588-AB7F764AA82B" name="Producto PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:02:38 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<engineerTo>
+<item key="0BC41EEC-FC7B-0AF3-E5A9-143221BFA438" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F214D3B0-09B3-6689-904B-79B0B965AF72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

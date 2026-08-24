@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF60B2CB-A3C9-ED7C-4D90-7E9CFEF7087F" name="Tipo_de_producto">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>0B0E467D-FF01-6259-B679-DD6270BD6214</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tipo_de_producto" id="71C0756E-BBAD-189B-BD81-B09B44873D3F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>B50CE29B-3146-5AD1-B179-10311287B84D</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_tipo_de_producto" id="95AAA52E-8920-9F90-CF5C-9C2B892CEDA8">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>9B9E367F-2AB5-2E1A-FDCE-3C69DBD13F44</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="523F9356-6022-9340-9E1B-B1E015BFD5A6" name="Tipo_de_producto_PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>A3310BA8-27B3-4672-B530-AAC16E2A1DEA</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C0756E-BBAD-189B-BD81-B09B44873D3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

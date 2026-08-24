@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Canijo" id="2BA50AF4-556E-AE8F-0B82-57678EA31619" version="3.5">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 16:22:41 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BA50AF4-556E-AE8F-0B82-57678EA31619</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B0DDB6B-52E0-F39A-3EAA-07C9E3F05FEA" containerWithKeyObject="FF2E6106-B114-9A8C-4E50-5669FC1EE474" localFKIndex="1883D494-280E-D22D-CEEB-6A1A63DF199B" name="Relation_6_Metodo_de_obtencion_FK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>8D1381AC-3FA9-5162-8C24-7945F25F9630</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<referredTableLongName>Metodo_de_obtencion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7172E703-6CC7-9A35-1032-126BE4B12509</referredTableID>
+<keyObject>ECFE957D-FF49-E5E4-DAA9-4C3FE578399A</keyObject>
+<referredKeyID>ECFE957D-FF49-E5E4-DAA9-4C3FE578399A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_metodo_de_obtencion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

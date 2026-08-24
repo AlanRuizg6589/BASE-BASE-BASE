@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE311848-7099-2EE7-673C-22586480DFDE" name="Relation_8">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pais_ID_pais" id="C73E110B-E623-DF59-14CD-5FA19D9CD428">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FBD3116-153B-2DC8-7921-B8F700710F10" referredColumn="55B2817D-30DE-CB07-74CD-344D5FAABC1D"/>
+</associations>
+</Column>
+<Column name="Tipo_de_producto_ID_tipo_de_producto" id="CC2B0DF6-BAA4-9541-7BE1-8B20B802EDD5">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9D047A-432A-A75C-0F3D-0AE267C31CB5" referredColumn="71C0756E-BBAD-189B-BD81-B09B44873D3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F97A969-69D7-15BD-C912-DBE449FEDEE6" name="Relation_8_PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<ownerDesignName>Canijo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C73E110B-E623-DF59-14CD-5FA19D9CD428"/>
+<colUsage columnID="CC2B0DF6-BAA4-9541-7BE1-8B20B802EDD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="802EB4F1-C4E3-8772-1D6A-1FB7EAC81E02" name="Relation_8_Pais_FK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>0BFF6105-77FF-4D99-7A1F-B18A8111EC76</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C73E110B-E623-DF59-14CD-5FA19D9CD428"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51BF20A5-2B81-C597-3039-24B81D2E2981" name="Relation_8_Tipo_de_producto_FK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>0BFF6105-77FF-4D99-7A1F-B18A8111EC76</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2B0DF6-BAA4-9541-7BE1-8B20B802EDD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

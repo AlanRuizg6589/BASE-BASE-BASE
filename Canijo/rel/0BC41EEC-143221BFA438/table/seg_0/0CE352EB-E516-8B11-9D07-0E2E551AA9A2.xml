@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CE352EB-E516-8B11-9D07-0E2E551AA9A2" name="Ciudad">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>E68841DA-D2FB-9A67-139F-C6D3D2149222</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ciudad" id="CF4F2C78-B1D8-84AC-1537-197C1DC34F2F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>807CB4FF-8B5D-9281-5B49-A7167754B50F</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_ciudad" id="359D4D98-F0CF-8344-F03F-09EC51457717">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>07428BF0-8023-FAC6-8C89-87B46369B289</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais_ID_pais" id="13A53809-203A-EECA-38F7-7DE30F30255D">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>81E75C96-FAA0-5DD7-A6F6-A39A2E24443C</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF1416C7-3136-DB38-7616-5745ACB61777" referredColumn="55B2817D-30DE-CB07-74CD-344D5FAABC1D"/>
+</associations>
+</Column>
+<Column name="Direccion" id="2A2182DA-B4F6-80C9-3C75-27066AC57338">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>430BF2EF-1207-95DF-7005-1606B8923FEB</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CA85B02-45D1-84F2-3B9F-9EB5A78C5EE9" name="Ciudad_PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>B2F1148E-767B-1116-9E69-8D70DD5EE33A</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF4F2C78-B1D8-84AC-1537-197C1DC34F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="413E3398-AE46-FF0E-9029-EDBC8F5792D8" name="Ciudad_Pais_FK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-08-24 17:10:57 UTC</createdTime>
+<generatorID>AC937D06-EB6A-48FC-0047-EE4B8D0F05A2</generatorID>
+<ownerDesignName>Canijo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A53809-203A-EECA-38F7-7DE30F30255D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
