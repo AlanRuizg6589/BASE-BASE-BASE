@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Mi_estacionamiento_privado" id="A7137D85-A4AA-90A6-60C1-C1CDCA154444" version="3.5">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 15:46:26 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A7137D85-A4AA-90A6-60C1-C1CDCA154444</designId>
+</OSDM_Design>

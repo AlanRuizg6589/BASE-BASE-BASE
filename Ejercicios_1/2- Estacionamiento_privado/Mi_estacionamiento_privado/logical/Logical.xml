@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="28B7D3C5-7DEC-A542-D85F-9B77DFB80200" mainViewID="9B2E394C-74F5-AD83-C5BD-364CC37FFD95">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 15:46:26 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

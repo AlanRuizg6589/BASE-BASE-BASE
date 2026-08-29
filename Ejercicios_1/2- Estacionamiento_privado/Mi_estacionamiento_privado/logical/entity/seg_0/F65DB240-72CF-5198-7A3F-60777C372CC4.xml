@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F65DB240-72CF-5198-7A3F-60777C372CC4" name="Plantilla">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:15:29 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3EE11C31-17E1-855F-52A6-36CE3450AD14">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:15:36 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="EF50A21E-A03D-08F2-9A36-8FF6C272DCC4">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:15:52 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE6CC631-16D7-797A-4458-AD3BC4D5DF37" name="Plantilla PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:15:49 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EE11C31-17E1-855F-52A6-36CE3450AD14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

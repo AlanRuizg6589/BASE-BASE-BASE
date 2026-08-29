@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="847D70E1-9110-E40F-BCFF-1E27A972A1B3" mainViewID="4F541D63-B010-A2E6-752B-D4DF06B0F8CD">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 15:46:35 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

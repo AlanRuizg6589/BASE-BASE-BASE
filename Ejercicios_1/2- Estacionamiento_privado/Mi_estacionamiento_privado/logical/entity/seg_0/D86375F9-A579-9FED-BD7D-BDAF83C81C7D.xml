@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D86375F9-A579-9FED-BD7D-BDAF83C81C7D" name="Arriendo">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:13 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="90583F21-7390-FC4C-BE44-5E51B0B92A77">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:13 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arriendo_comienzo" id="2674CA65-A96B-6B33-287F-802B2AB42C8C">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:13 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arriendo_Termino" id="8C111DBC-EDFF-B783-730A-EFDB724DAFB0">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:40:51 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="F66D5BE1-BFF3-E341-5A0D-C103C3B818DB">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:43:36 UTC</createdTime>
+<generatorID>3500627D-EE37-FF39-4001-F45451CBFBCA</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>DD5D0C6E-2688-0F25-5D44-F2F67C108EDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="9581ECE3-5422-0AB7-2579-874E7D7E2552">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:44:01 UTC</createdTime>
+<generatorID>2F3F3EA2-048D-A20D-6ABF-4B7CF6C4D1F8</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>B1E5177F-27E1-6DA4-FCCB-D4D83089B085</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78C74591-BEA3-B42B-8B9B-4CDEFC395FE6" name="Plantilla PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:13 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90583F21-7390-FC4C-BE44-5E51B0B92A77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

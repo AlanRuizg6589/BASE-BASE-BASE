@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B47F972-EFFF-F64A-988D-3D09062D8DD4" name="Estacionamiento">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:10 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B1E5177F-27E1-6DA4-FCCB-D4D83089B085">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:10 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_estacionamiento (opcional para el cliente)" id="27238223-DFAA-EEE7-D8CF-BCF0BBFA3F67">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:10 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="39E96DF1-1C50-0F42-7981-749127A81257">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:18:55 UTC</createdTime>
+<generatorID>8DCF8825-B263-6066-4646-644B550DD7D8</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>59030EF7-60C1-345D-B320-6C2FFD0766F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D01AAA35-B42B-6A68-5BD5-932E59095633" name="Plantilla PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 16:16:10 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1E5177F-27E1-6DA4-FCCB-D4D83089B085</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
