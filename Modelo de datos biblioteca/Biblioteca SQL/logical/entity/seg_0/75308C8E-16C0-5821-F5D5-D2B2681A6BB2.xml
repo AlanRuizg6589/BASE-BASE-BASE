@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="DE358235-7E89-7E7D-DA9F-A09D504842DB">
+<Attribute name="ID_sede" id="DE358235-7E89-7E7D-DA9F-A09D504842DB">
 <createdBy>W608-PCXX</createdBy>
 <createdTime>2026-08-18 22:02:57 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
@@ -39,6 +39,31 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion_sede" id="0E146861-2FE3-B72E-21D2-A7425AA79627">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:22:21 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_de_contacto" id="149032EA-5639-9AE8-9FD0-BC0A9D02A8C7">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:23:55 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

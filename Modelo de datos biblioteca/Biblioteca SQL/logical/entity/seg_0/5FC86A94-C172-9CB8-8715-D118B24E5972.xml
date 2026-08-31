@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AB721CC-6591-092D-5448-484D5A6CF249" name="Horario">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FC86A94-C172-9CB8-8715-D118B24E5972" name="Empleado">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:09:38 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -15,21 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_horario" id="D5E748F3-F1E5-2CF0-4845-CA6A3C47BDA4">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_empleado (FK)" id="70112263-0AA5-9902-A140-6035C02A98E2">
+<Attribute name="ID_empleado" id="90E5CE79-1D60-CCF6-E6E7-9D15CB7128C4">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:55:11 UTC</createdTime>
+<createdTime>2026-08-22 16:09:38 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -39,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dia_de_la_semana" id="6946EE5D-60F1-EFF2-3A23-086D556A0CC0">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<Attribute name="Nombre_empleado" id="78E8342E-4652-D7B0-4A44-CB59AAE45550">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:09:38 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -51,23 +39,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_empleado" id="4A0B0D8A-5F24-CE77-A008-76CF32EF217F">
+<Attribute name="Cuenta_bancaria" id="BEFFC8F9-EAB0-90BF-D553-DFF2D9D8880D">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:47:44 UTC</createdTime>
-<generatorID>EF2E11E1-E8DB-AACC-17BF-1B740BB2A2D6</generatorID>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<referedAttribute>90E5CE79-1D60-CCF6-E6E7-9D15CB7128C4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Hora_inicio" id="8EE42412-786B-2A6B-0767-41EF96675AA9">
-<createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:52:11 UTC</createdTime>
+<createdTime>2026-08-22 16:11:58 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -77,9 +51,47 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hora_final" id="9A04FA12-D522-9444-CA2B-381C64E64BE3">
+<Attribute name="ID_sede" id="46BAE57B-825C-5B30-5603-6969F9C6856D">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:52:24 UTC</createdTime>
+<createdTime>2026-08-22 16:12:36 UTC</createdTime>
+<generatorID>7CB76235-ADE8-9937-D7EB-831C941B4DB4</generatorID>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<referedAttribute>DE358235-7E89-7E7D-DA9F-A09D504842DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="CBFC2848-03FD-66AD-5BD4-F2A73E0EF880">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 21:01:43 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="452160CC-64B3-7529-B017-AB60D3BF156A">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 21:22:35 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_de_telefono" id="7460E04D-D8C6-5ECE-4782-A2E19AD80C94">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 21:23:25 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -91,16 +103,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FCF44806-E4CC-E262-539A-9975F7EF54CD" name="Autor PK">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<identifier id="7D162656-B849-BCA9-DB4C-EFA2C2D9EC3B" name="Autor PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:09:38 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D5E748F3-F1E5-2CF0-4845-CA6A3C47BDA4</attributeRef>
+<attributeRef>90E5CE79-1D60-CCF6-E6E7-9D15CB7128C4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

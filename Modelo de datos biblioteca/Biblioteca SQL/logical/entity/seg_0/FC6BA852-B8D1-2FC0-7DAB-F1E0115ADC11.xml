@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F65DB240-72CF-5198-7A3F-60777C372CC4" name="Plantilla">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC6BA852-B8D1-2FC0-7DAB-F1E0115ADC11" name="ROL">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:15:29 UTC</createdTime>
-<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<createdTime>2026-08-22 21:14:10 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
-<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3EE11C31-17E1-855F-52A6-36CE3450AD14">
+<Attribute name="ID_Rol" id="F8C4657A-9635-29B6-3F15-EB1B3BD74DAE">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:15:36 UTC</createdTime>
-<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<createdTime>2026-08-22 21:14:10 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
-<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="EF50A21E-A03D-08F2-9A36-8FF6C272DCC4">
+<Attribute name="Nombre_rol" id="92A6C338-CC3F-DC1D-E132-2DBBDB649D7B">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:15:52 UTC</createdTime>
-<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<createdTime>2026-08-22 21:14:10 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
-<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,16 +41,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EE6CC631-16D7-797A-4458-AD3BC4D5DF37" name="Plantilla PK">
+<identifier id="639E3AD2-A290-6D39-1367-3E69D2878A38" name="Autor PK">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:15:49 UTC</createdTime>
-<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<createdTime>2026-08-22 21:14:10 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
-<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3EE11C31-17E1-855F-52A6-36CE3450AD14</attributeRef>
+<attributeRef>F8C4657A-9635-29B6-3F15-EB1B3BD74DAE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

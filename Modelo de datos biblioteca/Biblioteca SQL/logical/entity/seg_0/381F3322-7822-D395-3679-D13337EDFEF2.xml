@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50B24051-5449-65B5-BFD6-EC50C9C76E25" name="Autor">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:52:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="381F3322-7822-D395-3679-D13337EDFEF2" name="Seccion">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 20:51:47 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_autor" id="74910247-23C4-B724-B30E-1FC49D05E586">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:52:38 UTC</createdTime>
+<Attribute name="ID_seccion" id="1E2533AD-1E4A-5DFF-32B8-7E37E1437321">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 20:51:47 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -27,46 +27,44 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre_autor" id="B1088D2D-9B57-2BE2-EAEC-3DD48FEA8D57">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:53:00 UTC</createdTime>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="seudonimo" id="C835FD31-3BA4-5B92-143F-5C784AEB395B">
+<Attribute name="Nombre_seccion" id="5234C984-D708-CB4D-95A6-A02A6DEA964D">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 20:53:53 UTC</createdTime>
+<createdTime>2026-08-22 20:51:47 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_sede" id="F00D9224-4C46-4AF4-E9CE-B64A0EC648E1">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 20:58:24 UTC</createdTime>
+<generatorID>63F93A5C-CE4E-8FFA-EBEE-C13E629F0A7E</generatorID>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<referedAttribute>DE358235-7E89-7E7D-DA9F-A09D504842DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F67D2C9D-F42A-BF11-AD38-52BFBA7F892D" name="Autor PK">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:52:54 UTC</createdTime>
+<identifier id="9E8CEE0B-E672-1CDE-5F88-CA456D71921D" name="Autor PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 20:51:47 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>74910247-23C4-B724-B30E-1FC49D05E586</attributeRef>
+<attributeRef>1E2533AD-1E4A-5DFF-32B8-7E37E1437321</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

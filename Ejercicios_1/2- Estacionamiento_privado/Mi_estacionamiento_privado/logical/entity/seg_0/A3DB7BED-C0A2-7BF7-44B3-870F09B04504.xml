@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="405CA398-1A51-59F2-32CD-E16119B83A8A" name="Camara">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3DB7BED-C0A2-7BF7-44B3-870F09B04504" name="Empleado">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:16:20 UTC</createdTime>
+<createdTime>2026-08-29 19:49:01 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
 <engineerTo>
 <item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="BEDA0C12-4B22-A923-B935-711C74779159">
+<Attribute name="ID" id="229B65A3-1353-DA47-9003-D0854F41ED18">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:16:20 UTC</createdTime>
+<createdTime>2026-08-29 19:49:01 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
 <engineerTo>
 <item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ubicación" id="9CB4949C-9EE2-D451-4B37-D036558559D3">
+<Attribute name="Nombre_completo_empleado" id="1989DA64-2740-030C-0A21-35385D7D2AA0">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:16:20 UTC</createdTime>
+<createdTime>2026-08-29 19:49:01 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
 <engineerTo>
 <item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
@@ -39,32 +39,54 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Estado_actual" id="F9C0F635-010D-E20C-2709-3B147D1DD444">
+<Attribute name="RUT" id="DC3E30C8-3706-C1F2-5DFF-D2A1266CE7A4">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 22:08:26 UTC</createdTime>
+<createdTime>2026-08-29 19:49:34 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
 <engineerTo>
 <item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="E255F1D0-5199-F390-5020-EFCB4AD31941">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 19:49:51 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_de_telefono" id="CC9130C7-6C8F-32B4-71A9-F0880CD45E16">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 19:49:53 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="718983B9-7AE9-407F-8EBD-10F4641DA7E7" name="Plantilla PK">
+<identifier id="58266E2F-40C1-07A6-97CB-998632B699F8" name="Plantilla PK">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:16:20 UTC</createdTime>
+<createdTime>2026-08-29 19:49:01 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
 <engineerTo>
 <item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BEDA0C12-4B22-A923-B935-711C74779159</attributeRef>
+<attributeRef>229B65A3-1353-DA47-9003-D0854F41ED18</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

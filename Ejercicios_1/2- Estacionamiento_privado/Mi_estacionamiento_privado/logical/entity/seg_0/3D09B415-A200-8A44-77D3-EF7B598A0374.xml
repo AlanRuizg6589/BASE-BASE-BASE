@@ -39,18 +39,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Modelo_vehiculo" id="96F0C9B7-92C9-B314-B9A4-FE54470E6B9F">
-<createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-29 16:50:45 UTC</createdTime>
-<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
-<engineerTo>
-<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID1" id="C891E66E-9AEB-C36F-CD31-81D4BF592CF7">
 <createdBy>AlanRuiz</createdBy>
 <createdTime>2026-08-29 16:56:02 UTC</createdTime>

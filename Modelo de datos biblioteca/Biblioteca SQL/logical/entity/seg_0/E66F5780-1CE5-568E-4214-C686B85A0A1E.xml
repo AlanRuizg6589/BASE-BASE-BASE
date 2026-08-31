@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EFA624C-9212-0CE2-0E67-1A9CE3524B06" name="Libro">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:40:02 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E66F5780-1CE5-568E-4214-C686B85A0A1E" name="Tiempo_de_atencion">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:38:57 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_libro" id="8FE86133-7B71-FF61-4836-112A94734607">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:41:30 UTC</createdTime>
+<Attribute name="ID_sede" id="B9E97962-93E6-4154-6021-472D52C841B7">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:38:57 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre_libro" id="F9A6448C-1A93-EBD9-6B5D-AC238B934773">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:43:15 UTC</createdTime>
+<Attribute name="Lunes" id="5D27B57A-B219-937B-8D81-A5C65AE41278">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:38:57 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -37,97 +37,113 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_genero" id="6C76D4C9-29E9-9197-C507-5B7A8DA97758">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:48:49 UTC</createdTime>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_autor" id="0B44FAC1-BC75-1638-7461-D38317CFF274">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:57:01 UTC</createdTime>
+<Attribute name="Martes" id="F53B9FC2-560F-410D-FD40-04AC93C23CB6">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:40:43 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ISBN" id="E1C6114B-4585-C3AF-407E-D8772D727846">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 22:00:31 UTC</createdTime>
+<Attribute name="Miercoles" id="08A4C9B1-4EF9-3201-5111-E2D654A785C5">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:40:45 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Stock" id="464063EE-0F5B-4B5E-FD40-821DE2F9177F">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 22:23:06 UTC</createdTime>
+<Attribute name="Jueves" id="1DC8F64C-A141-FB73-53F2-C959690961BC">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:40:46 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_editorial" id="69E909A5-3FF2-A8FE-9CF4-6EB7DC1872D6">
+<Attribute name="Viernes" id="8A18C2CC-8269-7313-570D-7AAF93D7501B">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 15:55:44 UTC</createdTime>
-<generatorID>3E114EE5-E19B-B4BB-5C8F-6284FAAE8BAF</generatorID>
+<createdTime>2026-08-22 16:40:48 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<referedAttribute>ADCCBFEB-4C09-7BD7-82BF-B7B575911E1D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_estanteria" id="BDF2BD88-E772-31AC-4368-5E4E882942CC">
+<Attribute name="Sabado" id="6A92AF11-7B82-11BE-6E3E-D0FB6BE3EEA3">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 15:58:36 UTC</createdTime>
-<generatorID>B2372490-D76F-CA8B-6858-12A09590F5E4</generatorID>
+<createdTime>2026-08-22 16:40:52 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<referedAttribute>DDBED394-929B-D0CA-4E2E-D2A65EEF0B5D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_arriendo_libro" id="B5925099-0EDF-D0CE-819A-54EE289986E4">
+<Attribute name="Domingo" id="38EAE36E-AA55-2370-D508-8F3D82D94AD2">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-23 00:11:00 UTC</createdTime>
-<generatorID>5AC82510-68CC-6C10-FE8B-434FC4A49914</generatorID>
+<createdTime>2026-08-22 16:40:54 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<referedAttribute>69C2870C-3BDC-4877-8B86-212AF7A61F91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Feriados" id="E6C84168-F187-75BF-4A57-F3D6769388C1">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:40:55 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dias_festivos" id="0D0B949E-7C5B-0CEC-4CE6-ED0950599440">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:40:56 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_sede1" id="88FD9DFC-F677-D5A1-073B-E792B8686F04">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:57:47 UTC</createdTime>
+<generatorID>73860FA6-C493-6D92-3AF3-5B7035E166A3</generatorID>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<referedAttribute>DE358235-7E89-7E7D-DA9F-A09D504842DB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -135,16 +151,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E70F1534-07C6-FBD7-FCA6-1CE07F430B96" name="Libros PK">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:43:07 UTC</createdTime>
+<identifier id="8DB865DD-F978-3978-7D41-0356E47C287D" name="Autor PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-22 16:38:57 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8FE86133-7B71-FF61-4836-112A94734607</attributeRef>
+<attributeRef>B9E97962-93E6-4154-6021-472D52C841B7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

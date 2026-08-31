@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AB721CC-6591-092D-5448-484D5A6CF249" name="Horario">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB6776C6-55EB-794A-A7FF-E576EBEB0223" name="Arriendo_seccion">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:11:29 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_horario" id="D5E748F3-F1E5-2CF0-4845-CA6A3C47BDA4">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<Attribute name="ID_arriendo_seccion" id="B8EAA0FD-DBF9-C0C8-28AB-380699F60106">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:11:29 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_empleado (FK)" id="70112263-0AA5-9902-A140-6035C02A98E2">
+<Attribute name="ID_alumno (FK)" id="FE4DD571-7C7F-5171-C9A5-559D8701BEE5">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:55:11 UTC</createdTime>
+<createdTime>2026-08-23 00:11:29 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -39,9 +39,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dia_de_la_semana" id="6946EE5D-60F1-EFF2-3A23-086D556A0CC0">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<Attribute name="Hora_inicio" id="27D3E999-02DD-3322-DD66-B94E8083F217">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:14:45 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
@@ -51,56 +51,56 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_empleado" id="4A0B0D8A-5F24-CE77-A008-76CF32EF217F">
+<Attribute name="Hora_final" id="0B7F668D-AB1A-2C92-18FA-BFCE4AB744C9">
 <createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:47:44 UTC</createdTime>
-<generatorID>EF2E11E1-E8DB-AACC-17BF-1B740BB2A2D6</generatorID>
+<createdTime>2026-08-23 00:15:05 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
-<referedAttribute>90E5CE79-1D60-CCF6-E6E7-9D15CB7128C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="75311918-28A0-9296-EFDF-B7E84E5F5EE5">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:15:18 UTC</createdTime>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_seccion" id="AD21F0FA-5692-24D0-9540-145E716DFB13">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:21:08 UTC</createdTime>
+<generatorID>F890B8F7-E7F8-359A-D98A-692EF8E4DB95</generatorID>
+<ownerDesignName>Biblioteca SQL</ownerDesignName>
+<engineerTo>
+<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
+</engineerTo>
+<referedAttribute>1E2533AD-1E4A-5DFF-32B8-7E37E1437321</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Hora_inicio" id="8EE42412-786B-2A6B-0767-41EF96675AA9">
-<createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:52:11 UTC</createdTime>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Hora_final" id="9A04FA12-D522-9444-CA2B-381C64E64BE3">
-<createdBy>AlanRuiz</createdBy>
-<createdTime>2026-08-22 21:52:24 UTC</createdTime>
-<ownerDesignName>Biblioteca SQL</ownerDesignName>
-<engineerTo>
-<item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FCF44806-E4CC-E262-539A-9975F7EF54CD" name="Autor PK">
-<createdBy>W608-PCXX</createdBy>
-<createdTime>2026-08-18 21:55:13 UTC</createdTime>
+<identifier id="E0B6CB1E-1B27-9A53-D7E3-CB84052FF58A" name="Genero PK">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-23 00:11:29 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>
 <engineerTo>
 <item key="94B7C5DB-13BD-B68C-0B04-7700DC2CAF8A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D5E748F3-F1E5-2CF0-4845-CA6A3C47BDA4</attributeRef>
+<attributeRef>B8EAA0FD-DBF9-C0C8-28AB-380699F60106</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

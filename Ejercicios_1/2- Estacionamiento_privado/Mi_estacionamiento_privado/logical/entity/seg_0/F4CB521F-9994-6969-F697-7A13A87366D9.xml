@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4CB521F-9994-6969-F697-7A13A87366D9" name="Plantillav1v7">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4CB521F-9994-6969-F697-7A13A87366D9" name="Horario_empleado">
 <createdBy>AlanRuiz</createdBy>
 <createdTime>2026-08-29 16:16:19 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="41EC6CCF-B3F4-B91F-147D-88B69E42C906">
+<Attribute name="Dia_de_la_semana (Si se agrega un dato feriado o festivo indicarlo en el nombre)" id="41EC6CCF-B3F4-B91F-147D-88B69E42C906">
 <createdBy>AlanRuiz</createdBy>
 <createdTime>2026-08-29 16:16:19 UTC</createdTime>
 <ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
@@ -37,6 +37,44 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_comienzo" id="73BDE638-6A55-72AE-2629-390F556DE1E4">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 19:54:38 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_termino" id="9FAF6134-6CE6-FFC1-DE43-FFAFB3394CE0">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 19:54:40 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1DE2AC56-FF1F-9BA5-BFC7-08616017F8D9">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 19:57:56 UTC</createdTime>
+<generatorID>94F95896-7491-A6DD-4AEB-701C3F673F3B</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>229B65A3-1353-DA47-9003-D0854F41ED18</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

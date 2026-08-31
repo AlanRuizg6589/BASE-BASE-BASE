@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="ADCCBFEB-4C09-7BD7-82BF-B7B575911E1D">
+<Attribute name="ID_editorial" id="ADCCBFEB-4C09-7BD7-82BF-B7B575911E1D">
 <createdBy>W608-PCXX</createdBy>
 <createdTime>2026-08-18 22:28:06 UTC</createdTime>
 <ownerDesignName>Biblioteca SQL</ownerDesignName>

@@ -79,6 +79,46 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Día_que_ocurrio" id="C508E717-0946-D730-269E-204A44CFBA9E">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 21:41:48 UTC</createdTime>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="513678FB-AC7E-53FD-1A8C-87235313B957">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 21:53:25 UTC</createdTime>
+<generatorID>30F177A8-7D3A-52DA-4E11-4A20A0A02A14</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>0708EDEA-52F1-BF41-2FB2-ADBFEE5268D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="0AF1EDC6-5B2F-ECF9-1465-6015E2B8373E">
+<createdBy>AlanRuiz</createdBy>
+<createdTime>2026-08-29 21:53:30 UTC</createdTime>
+<generatorID>B37C7FAE-AAE1-6C1E-B147-615D5883670A</generatorID>
+<ownerDesignName>Mi_estacionamiento_privado</ownerDesignName>
+<engineerTo>
+<item key="847D70E1-9110-E40F-BCFF-1E27A972A1B3" value="true"/>
+</engineerTo>
+<referedAttribute>195713F7-FA0E-07B4-2C4E-A9427BD41949</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="78C74591-BEA3-B42B-8B9B-4CDEFC395FE6" name="Plantilla PK">
