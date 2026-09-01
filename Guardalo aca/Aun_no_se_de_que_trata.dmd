@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Aun_no_se_de_que_trata" id="9E1E73A1-FD5E-CB37-ADA6-FA34CB72E939" version="3.5">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:53:36 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9E1E73A1-FD5E-CB37-ADA6-FA34CB72E939</designId>
+</OSDM_Design>

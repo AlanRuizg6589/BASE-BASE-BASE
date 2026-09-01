@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B84E25EC-4EC5-1FFD-397F-87C719313BC5" name="Comunas">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:54:41 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_comuna" id="AA088913-B275-B25C-5230-74752692FFCB">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:54:41 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_comuna" id="D946E2E3-4E18-8CFC-D022-6BE9A5CDC1EA">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:54:41 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_región" id="6691CA33-DB16-AB76-72C9-15B195B1975C">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:05:20 UTC</createdTime>
+<generatorID>1BC5759F-CB27-0ED6-03E2-2C917A163F5B</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>96CACBD3-16B7-2B85-E2D5-E409079A150F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA7F6814-F247-F92D-8B82-FA60A6937952" name="Plantillav4 PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:04:18 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA088913-B275-B25C-5230-74752692FFCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

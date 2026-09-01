@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0302B5D3-28B5-787C-AF46-B78FC666403D" name="Estado_actual">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:57:38 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_estado_actual" id="D158AA09-EA01-2761-E235-B926A4EB5FBB">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:57:38 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_estado_actual" id="C70A4F91-F5B6-DDA4-3009-5E4AD17034D0">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 21:57:38 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="924A3B07-426D-5932-34E6-1173EFB59474" name="Estado_actual PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:02:11 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D158AA09-EA01-2761-E235-B926A4EB5FBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

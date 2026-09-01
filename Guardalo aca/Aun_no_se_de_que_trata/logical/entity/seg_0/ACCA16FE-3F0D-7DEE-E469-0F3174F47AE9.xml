@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACCA16FE-3F0D-7DEE-E469-0F3174F47AE9" name="Estado_reserva">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:17:15 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_estado_reserva" id="2B595248-EB69-7ECB-BB66-2D4C5826E69D">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:17:15 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_inicio" id="1B5E6BBA-F6D3-BABF-C16E-3FABF77CE0C2">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:22:27 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_termino" id="A7D049D9-570C-1397-B6B7-7C108A6F14F9">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:22:44 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tipo_estado" id="83C195BA-4E7C-2E92-50CC-F44539B67E9A">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:24:39 UTC</createdTime>
+<generatorID>161EC63A-39B3-0866-93CC-2CC77EE9366C</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>6D08FFC0-D9CC-EE4B-E335-0512C5F387A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1380274C-E3B5-9731-BEC0-E4DE1E5EF5E4" name="Estado_actual PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:17:15 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B595248-EB69-7ECB-BB66-2D4C5826E69D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

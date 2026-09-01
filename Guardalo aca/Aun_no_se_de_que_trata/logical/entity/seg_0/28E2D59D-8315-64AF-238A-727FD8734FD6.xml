@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28E2D59D-8315-64AF-238A-727FD8734FD6" name="Reserva">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:27:09 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_reserva" id="93AE82BA-E52F-9265-988E-A0220538DA28">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:27:09 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_inicio" id="B5033559-AE60-BA6A-BADD-BFC29A90372D">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:27:09 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_de_termino" id="70C9DEAD-E2FA-2E27-3544-E67381CA519B">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:28:36 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_cliente" id="990FB72F-5678-5654-060F-9FBE2B25EB6A">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:44:55 UTC</createdTime>
+<generatorID>0AFA7057-3725-760C-F324-9BE0BC44C772</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>F1C93FC9-579F-928E-DD36-883AB5AF1415</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_empresa" id="9ABC23CA-5373-9CA0-FAEB-C5B43CF2655F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:45:02 UTC</createdTime>
+<generatorID>81343AFB-979A-68AB-0707-B74D303C48C3</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>74A5B64B-6611-8D9D-7448-C4AA99EF5146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="151CC172-F353-C8F6-72F4-04DF14D10EDF" name="Reserva PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:33:36 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93AE82BA-E52F-9265-988E-A0220538DA28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

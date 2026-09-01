@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62DDD603-1CEA-C678-4EA4-85E9BF6BB33F" name="Números_de_teléfono">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:40:39 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_teléfono" id="35230CE3-1F52-1F17-EBC0-C19E2993E33E">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:40:39 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Número_de_teléfono" id="BF32188D-4751-18E8-052C-1A9B9C6DAA33">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:40:39 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_trabajador" id="C35D41BF-2343-C748-81F7-85F662FC6747">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:42:23 UTC</createdTime>
+<generatorID>FC3843BD-BA26-FAD2-66A1-41F0798FED8A</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>BD8803E4-C6A1-50AB-E4E1-4BD8F2EFD4B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_cliente" id="41E2124E-083A-4BC0-661D-D2771063500F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:43:04 UTC</createdTime>
+<generatorID>DDDF71F5-411A-BAA8-6528-215A310415A8</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>F1C93FC9-579F-928E-DD36-883AB5AF1415</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_empresa" id="3C317047-B53E-2A62-5B57-EAF96EA63DF8">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:43:09 UTC</createdTime>
+<generatorID>6D9EA92B-E326-05AA-0FF4-67ED3B475D5E</generatorID>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<referedAttribute>74A5B64B-6611-8D9D-7448-C4AA99EF5146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA009853-7E42-1560-87FC-A62F6C5EE822" name="Plantillav1v1 PK">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-01 22:40:39 UTC</createdTime>
+<ownerDesignName>Aun_no_se_de_que_trata</ownerDesignName>
+<engineerTo>
+<item key="BBE8BD72-C726-AC2E-93C1-28A58FFAF710" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35230CE3-1F52-1F17-EBC0-C19E2993E33E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
